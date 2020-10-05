@@ -1,5 +1,5 @@
 {
-  "name": "elasticquent/elasticquent",
+  "name": "cephee/elasticquent",
   "type": "library",
   "description": "Maps Laravel Eloquent models to Elasticsearch types.",
   "keywords": [
@@ -7,19 +7,18 @@
     "eloquent",
     "laravel"
   ],
-  "homepage": "https://github.com/elasticquent/Elasticquent",
+  "homepage": "https://github.com/cephee/Elasticquent",
   "license": "MIT",
   "authors": [
     {
-      "name": "Adam Fairholm",
-      "email": "adam.fairholm@gmail.com",
-      "homepage": "http://adamfairholm.com"
+      "name": "Body Joffrey",
+      "email": "bodyjoffrey@gmail.com"
     }
   ],
   "require": {
     "php": ">=5.4.0",
-    "illuminate/database": "~4.2|^5|^6|^7",
-    "illuminate/config": "~4.2|^5|^6|^7",
+    "illuminate/database": "~4.2|^5|^6|^7|^8",
+    "illuminate/config": "~4.2|^5|^6|^7|^8",
     "nesbot/carbon": "~1.0|~2",
     "elasticsearch/elasticsearch": "~6.1"
   },
